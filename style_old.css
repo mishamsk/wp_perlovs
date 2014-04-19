@@ -1,0 +1,81 @@
+/*
+Theme Name: perlovs
+Theme URI: http://perlovs.com/
+Author: Mikhail Perlov
+Author URI: http://perlovs.com/
+Description:  
+Version: 0.0.1
+Template: ward
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: clean, colors, corporate, creative, flexible, ipad, iphone, isotope, light, modern, page builder, responsive, retina ready, shortcodes, slider, localization
+Text Domain: perlovs
+*/
+@import url("../ward/style.css");
+/* Add your custom CSS rules that overwrite the ones in the main Lens theme here */
+.credit-link { display: none !important }
+article {
+  padding: 20px 0 20px;
+  margin: 0;  
+}
+.page-title { 
+  padding: 20px 0px; 
+}
+#archive-header {
+  padding-bottom: 0px;
+}
+#page, #fsb-social-bar {
+  background: #F3f3f3;
+}
+.navbar-brand {
+  max-width: 265px;
+}
+
+.navbar-header {
+	width: 100%;
+}
+
+.navbar-collapse {
+	float: left;
+}
+
+.search-header {
+	height: 20px;
+	float: right;
+	margin-right: 4px;
+	z-index: 3;
+}
+
+.search-header .searchform .submit {
+	float: right;
+	width: 20px;
+	height: 20px;
+	border: none;
+	color: transparent;
+	background-color: transparent;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-image: url("data:image/svg+xml,%3Csvg%20version=%221.1%22%20xmlns=%22http://www.w3.org/2000/svg%22%20xmlns:xlink=%22http://www.w3.org/1999/xlink%22%20x=%220px%22%20y=%220px%22%20width=%2214px%22%20height=%2214px%22%20viewBox=%220%200%2016%2016%22%20enable-background=%22new%200%200%2016%2016%22%20xml:space=%22preserve%22%3E%3Cpath%20fill=%22white%22%20d=%22M15.491,14.071L10.887,9.53c0.727-0.989,1.223-2.206,1.223-3.524C12.109,2.693,9.395,0,6.055,0S0,2.693,0,6.006c0,3.312,2.716,6.008,6.055,6.008c1.266,0,2.567-0.516,3.539-1.178l4.562,4.556%09L15.491,14.071z%20M1.632,5.996c0-2.429,1.975-4.403,4.403-4.403c2.429,0,4.402,1.975,4.402,4.403c0,2.428-1.974,4.402-4.402,4.402C3.607,10.396,1.632,8.423,1.632,5.996z%22/%3E%3C/svg%3E");
+}
+
+.search-header .searchform .searchsubmit {
+	display: none;
+}
+
+.search-header .searchform .field {
+	position: absolute;
+	right: 6px;
+	top: 38px;
+	width: 290px;
+	height: 50px;
+	background-color: #fff;
+	font-style: italic;
+	visibility: visible;
+	display: none;
+	-webkit-box-shadow:  0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+	box-shadow:  0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.search-header .searchform .field:focus {
+	outline: none;
+}
