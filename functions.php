@@ -13,9 +13,7 @@ define( 'PERLOVS_THEME_NAME', $perlovs_theme_data->Name );
  *
  * @since 0.0.1
  */
-/* 
-require( PERLOVS_THEME_TEMPLATE . '/library/theme-options.php' ); // Functions for theme options page
-*/
+require( PERLOVS_THEME_TEMPLATE . '/lib/theme-options.php' ); // Functions for theme options page
 
 add_action( 'after_setup_theme', 'perlovs_setup' );
 if ( ! function_exists( 'perlovs_setup' ) ) :
