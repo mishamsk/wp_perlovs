@@ -3,7 +3,7 @@ Theme Name: perlovs
 Theme URI: http://perlovs.com/
 Author: Mikhail Perlov
 Author URI: http://perlovs.com/
-Description:  
+Description:
 Version: 0.0.1
 Template: ward
 License: GNU General Public License v2 or later
@@ -12,26 +12,26 @@ Tags: clean, colors, corporate, creative, flexible, ipad, iphone, isotope, light
 Text Domain: perlovs
 */
 
-@import "compass/reset";
+// @import "compass/reset";
 @import "compass/css3";
 // customize bootstrap variables here:
-@import "variables";
-@import "bootstrap";
+// @import "variables";
+// @import "bootstrap";
 
-@import "breakpoint";
+// @import "breakpoint";
 
-@import "../../ward/library/sass/theme";
-@import "../../ward/library/sass/wp";
+// @import "../../ward/library/sass/theme";
+// @import "../../ward/library/sass/wp";
 
-/*@import url("../ward/style.css");*/
+@import url("../ward/style.css");
 
 .credit-link { display: none !important }
 article {
   padding: 20px 0 20px;
-  margin: 0;  
+  margin: 0;
 }
-.page-title { 
-  padding: 20px 0px; 
+.page-title {
+  padding: 20px 0px;
 }
 #archive-header {
   padding-bottom: 0px;
@@ -91,3 +91,4 @@ article {
 .search-header .searchform .field:focus {
 	outline: none;
 }
+

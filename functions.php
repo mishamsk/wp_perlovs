@@ -5,6 +5,7 @@
  * @since 0.0.1
  */
 $perlovs_theme_data = wp_get_theme();
+define( 'PERLOVS_THEME_URL', get_template_directory_uri() );
 define( 'PERLOVS_THEME_TEMPLATE', get_stylesheet_directory() );
 define( 'PERLOVS_THEME_NAME', $perlovs_theme_data->Name );
 
@@ -42,6 +43,15 @@ if ( ! function_exists( 'perlovs_add_js' ) ) :
  * @since 0.0.1
  */
 function perlovs_add_js() {
-	wp_enqueue_script( 'perlovs_js', PERLOVS_THEME_URL .'/js/theme.js', array( 'theme_js' ), '', true );
+	//wp_enqueue_script( 'perlovs_js', PERLOVS_THEME_URL .'/js/theme.js', array( 'theme_js' ), '', true );
 }
 endif; // perlovs_add_js
+
+/**
+ * Create the required attributes for the #primary container
+ *
+ * @since 0.0.1
+ */
+function perlovs_primary_attr() {
+	bavotasan_primary_attr();
+}
